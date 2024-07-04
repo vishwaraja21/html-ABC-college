@@ -1,202 +1,186 @@
-# html-ABC-college
-
-## Ex-02
-
-
-### index.html
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saveetha Engineering College</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-<header>
-    <img src="saveetha-logo.jpg" alt="College Logo" width="350px">
-    <h1>Saveetha Engineering College</h1>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="academics.html">Academics</a>
-    <a href="admission.html">Admission</a>
-    <a href="gallery.html">Gallery</a>
-</nav>
-
-<article>
-    <h2>Welcome to Saveetha Engineering College</h2>
-    <p>Welcome to SaveethaEC - Saveetha Engineering College (Autonomous), a distinguished institution established in 2001 under the visionary leadership of Veeraiyan — a committed medical professional and philanthropist par excellence. With over 35 years of unwavering commitment to excellence in education, our college has emerged as the forefront of engineering education and research.</p>
-    <h2>Affiliation/Accreditations</h2>
-    <li>Autonomous institution affiliated with Anna University</li>
-    <li>Approved by AICTE</li>
-    <li>NBA accreditation for 5 undergraduate courses</li>
-    <li>SIRO recognition by DSIR Government of India</li>
-    <li>An 'A' grade from NAAC</li>
-    <li>Ranked by NIRF</li>
-<article>
-
-<footer>
-    &copy; 2024 Saveetha Engineering College. All rights reserved.
-</footer>
-
-</body>
-</html>
-
-
-### academics.html
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academics - Saveetha Engineering College</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <img src="saveetha-logo.jpg" alt="College Logo" width="350px">
-        <h1>Saveetha Engineering College</h1>
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="academics.html">Academics</a>
-        <a href="admission.html">Admission</a>
-        <a href="gallery.html">Gallery</a>
-    </nav>
-    <div class="container">
-        <h2>Academics</h2>
-        <ul>
-            <li>B.E
-                <ul>
-                    <li>Computer Science</li>
-                    <li>ECE</li>
-                    <li>EEE</li>
-                    <li>Chemical</li>
-                </ul>
+##acadamics
+```
+<!Doctype html>
+<html>
+    <head >
+        <title>College Name</title>
+        <header align="center">
+            <img src="./images/logo.png" width="10%" height="10%"  alt="logo" style="vertical-align: middle;"> 
+            <font size="7"  style="display:inline; vertical-align:middle">Saveetha Engineering College</font>
+        </header>
+        <hr>
+        <nav align="center">
+            <a href="college.html" style="margin-left: 6%; margin-right: 1%;">INDEX</a>
+            <a href="academics.html" style="margin-left: 1%; margin-right: 1%;">ACADEMICS</a>
+            <a href="admission.html" style="margin-left: 1%; margin-right: 1%;">ADMISSION</a>
+            <a href="gallary.html" style="margin-left: 1%; margin-right: 1%;">GALLARY</a>
+        </nav>
+        <hr>
+    </head>
+    <body>
+        <font size="3" >List of Departmennts and Courses offered by Saveetha Engineering College,</font>
+        <main>
+        <ol type="1">
+            <li> ARTS
+                <UL type="circle">
+                    <li><a href="./Courses/english.html">English</a></li>
+                    <li><a href="./Courses/sociology.html">Sociology</a></li>
+                </UL>
             </li>
-            <li>B.Tech
-                <ul>
-                    <li>Artificial Intelligence</li>
-                    <li>Machine Learning</li>
-                    <li>Information Technology</li>
-                </ul>
+            <li> SCIENCE
+                <UL type="circle">
+                    <li><a href="./Courses/computer-science.html">Computer Science</a></li>
+                    <li><a href="./Courses/mathematics.html">Mathematics</a></li>
+                </UL>
             </li>
-        </ul>
-    </div>
-    <footer>
-        &copy; 2024 Saveetha Engineering College. All rights reserved.
-    </footer>
-</body>
+            <li> COMMERCE
+                <UL type="circle">
+                    <li><a href="./Courses/economics.html">Economics</a></li>
+                    <li><a href="./Courses/business-management.html">Bussiness Management</a></li>
+                </UL>
+            </li>
+        </ol>
+        </main>
+    </body>
+    <hr>
+    <p align="center">&copy; Saveetha Engineering College</p>
 </html>
+```
+##admission
+```
+<!Doctype html>
+<html>
+    <head >
+        <title>College Name</title>
+        <header align="center">
+            <img src="./images/logo.png" width="10%" height="10%"  alt="logo" style="vertical-align: middle;"> 
+            <font size="7"  style="display:inline; vertical-align:middle">Saveetha Engineering College</font>
+        </header>
+        <style>
+            label{
+                padding: 10px;
+                text-align: left;
+            }
+            input{
+                padding: 10px;
+                text-align: center;
+                width: 300px;
+            }
+            select{
+                padding: 10px;
+                width: 40%;
+                text-align: center;
+                margin-left: 6px;
 
+            }
+            button{
+                padding:10px;
+            }
+        </style>
+        <hr>
+        <nav align="center">
+            <a href="college.html" style="margin-left: 6%; margin-right: 1%;">INDEX</a>
+            <a href="academics.html" style="margin-left: 1%; margin-right: 1%;">ACADEMICS</a>
+            <a href="admission.html" style="margin-left: 1%; margin-right: 1%;">ADMISSION</a>
+            <a href="gallary.html" style="margin-left: 1%; margin-right: 1%;">GALLARY</a>
+        </nav>
+        <hr>
+    </head>
+    <body>
+        <form>
+            <label>Enter Name:</label>
+            <input type="text" placeholder="Fname" style="margin-left: 100px;"> <input type="text" placeholder="Lname"><br><br>
+            <label>Choose Your Departmennt: </label>
+            <select>
+                <option>Computer Science</option>
+                <option>Business Management</option>
+                <option>Economics</option>
+                <option>English</option>
+                <option>Mathematics</option>
+                <option>Sociology</option>
+                </select>
+            <br><br>
+            <label>Date-of-Birth:</label>                        <input type="date" style="margin-left: 88px;"><br><br>
+            <label>Email:</label>                                <input type="email" placeholder="sample@gmail.com" style="margin-left: 136px;"><br><br>
+            <label>Father's Name:</label> <input type="text" style="margin-left: 81px;"> <br><br>
+            <label>Mother's Name:</label> <input type="text" style="margin-left: 74px;"><br><br>
+            <label align="top">Address:</label>
 
-
-### admissions.html
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admission - Saveetha Engineering College</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <img src="saveetha-logo.jpg" alt="College Logo" width="350px">
-        <h1>Saveetha Engineering College</h1>
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="academics.html">Academics</a>
-        <a href="admission.html">Admission</a>
-        <a href="gallery.html">Gallery</a>
-    </nav> 
-    <div class="container">
-        <h2>Admission Form</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="course">Course:</label>
-            <select id="course" name="course">
-                <option value="computer-science">Computer Science</option>
-                <option value="mathematics">Information Technology</option>
-                <option value="english">Artificial Intelligence</option>
-                <option value="sociology">Data Science</option>
-                <option value="economics">Machine Learning</option>
-                <option value="business-management">Robotics</option>
-            </select>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-            
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-    <footer>
-        &copy; 2024 Saveetha Engineering College. All rights reserved.
-    </footer>
-</body>
+            <textarea rows="7" cols="80" style="margin-left: 120px;">Enter your Address here</textarea> <br><br>
+            <label>Upload 12th Marksheet:</label> <input type="file" style="margin-left: 12px;"><br><br>
+            <button style="margin-left: 100px;">Submit</button> <button style="margin-left: 20px;">Cancel</button>
+            </form>
+    </body>
+    <hr>
+    <p align="center">&copy; Saveetha Engineering College</p>
 </html>
-
-
-
-### gallery.html
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - Saveetha Engineering College</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <img src="saveetha-logo.jpg" alt="College Logo" width="350px">
-        <h1>Saveetha Engineering College</h1>
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="academics.html">Academics</a>
-        <a href="admission.html">Admission</a>
-        <a href="gallery.html">Gallery</a>
-    </nav>
-    <div class="container">
-        <h2>Gallery</h2>
-        <img src="https://imgs.search.brave.com/hI-c_72BgkcD_blUbXm_CzX31PWbYJUSvh-sAvg_lwA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYWls/LnNhdmVldGhhLmFj/LmluL2ltYWdlcy9z/ZWMvMjAyMi9NQkEv/U2VtaW5hcl9jb25k/dWN0ZWRfYnlfTUJB/X2RlcGFydG1lbnRf/b2ZfU2F2ZWV0aGFf/RW5naW5lZWluZ19D/b2xsZWdlLmpwZw" alt="Gallery Image 2" style="width: 40%;">
-        <img src="https://imgs.search.brave.com/ogLfocBqobpUtTLgrk0p5TzYcz53kKkbapJqs-7e77Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzVm/OGE4NWZjMmFkN2E1/MTRjM2ZkYWY2MC8x/NjAzNTkxNTk0NzA1/LUFMUTlFWjNDS1Q1/MFdVQTJSRUJYLzE1/ODE2ODE2NjFwaHBw/MDRxVkQuanBlZw" alt="Gallery Image 3" style="width: 40%;">
-        <img src="gate.jpg" alt="">
-        <img src="eng.jpg" alt="">
-        <img src="https://imgs.search.brave.com/p4PG2FI-UvHJHd8jCDxgQnH3klKVzX7z16SsEx8y2c0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/a2FuY2hpcHVyYW0v/azUvOTk5OXB4eDQ0/Lnh4NDQuMTEwMzI1/MTkxNzA0LmUzazUv/Y2F0YWxvZ3VlL3Nh/dmVldGhhLWVuZ2lu/ZWVyaW5nLWNvbGxl/Z2UtYWRtaXNzaW9u/LW9mZmljZS10aGFu/ZGFsYW0ta2FuY2hp/cHVyYW0tY29sbGVn/ZXMtYjRxd2c4di5q/cGc_dz0zODQwJnE9/NzU" alt="Gallery Image 4" style="width: 40%;">
-    </div>
-    <footer>
-        &copy; 2024 Saveetha Engineering College. All rights reserved.
-    </footer>
-</body>
+```
+##college.html
+```
+<!Doctype html>
+<html>
+    <head >
+        <title>College Name</title>
+        <header align="center">
+            <img src="./images/logo.png" width="10%" height="10%"  alt="logo" style="vertical-align: middle;"> 
+            <font size="7"  style="display:inline; vertical-align:middle">Saveetha Engineering College</font>
+        </header>
+        <hr>
+        <nav align="center">
+            <a href="college.html" style="margin-left: 6%; margin-right: 1%;">INDEX</a>
+            <a href="academics.html" style="margin-left: 1%; margin-right: 1%;">ACADEMICS</a>
+            <a href="admission.html" style="margin-left: 1%; margin-right: 1%;">ADMISSION</a>
+            <a href="gallary.html" style="margin-left: 1%; margin-right: 1%;">GALLARY</a>
+        </nav>
+        <hr>
+    </head>
+    <body>
+        <h2 align="center">Description</h2>
+        <p align="center" style="margin-top: 2%;margin-bottom: 2%;margin-left: 5%;margin-right: 5%;">Saveetha Engineering College (SEC), established in 2001 and located in Chennai, Tamil Nadu, is a part of the Saveetha Institute of Medical and Technical Sciences (SIMATS). Affiliated with Anna University and approved by the AICTE, SEC offers a range of undergraduate and postgraduate programs in various engineering disciplines, including Computer Science, Electronics and Communication, Electrical and Electronics, Mechanical, and Civil Engineering. Known for its high academic standards and modern infrastructure, SEC features state-of-the-art laboratories, modern classrooms, a comprehensive library, and extensive facilities for sports and extracurricular activities. The college boasts impressive placement records, with a 97% placement rate in 2023, and companies offering packages as high as Rs. 34 lakhs per annum. Additionally, SEC emphasizes research and innovation, encouraging students and faculty to engage in cutting-edge projects. The institution is also involved in significant community service activities, reflecting its commitment to societal welfare. SEC has received notable rankings, including being placed 16th among private engineering colleges in Tamil Nadu by the NIRF in 2021.</p>
+    </body>
+    <hr>
+    <p align="center">&copy; Saveetha Engineering College</p>
 </html>
+```
+##gallary
+```
+<!Doctype html>
+<html>
+    <head >
+        <title>College Name</title>
+        <header align="center">
+            <img src="./images/logo.png" width="10%" height="10%"  alt="logo" style="vertical-align: middle;"> 
+            <font size="7"  style="display:inline; vertical-align:middle">Saveetha Engineering College</font>
+        </header>
+        <hr>
+        <nav align="center">
+            <a href="college.html" style="margin-left: 6%; margin-right: 1%;">INDEX</a>
+            <a href="academics.html" style="margin-left: 1%; margin-right: 1%;">ACADEMICS</a>
+            <a href="admission.html" style="margin-left: 1%; margin-right: 1%;">ADMISSION</a>
+            <a href="gallary.html" style="margin-left: 1%; margin-right: 1%;">GALLARY</a>
+        </nav>
+        <hr>
+    </head>
+    <body align="center">
+        <img src="./images/Gallary1.jpeg" height="500" width="700" >
+        <img src="./images/Gallary2.png" height="500" width="700">
+        <img src="./images/gallary3.jpeg"height="500" width="700">
+        <img src="./images/gallary4.png" height="500" width="700">
+        <img src="./images/gallary5.jpg" height="500" width="700">
+        <img src="./images/gallary6.png" height="500" width="700">
+    </body>
+    <hr>
+    <p align="center">&copy; Saveetha Engineering College</p>
+</html>
+```
+##Output 
+![image](https://github.com/vishwaraja21/html-ABC-college/assets/102411421/99deed6b-5709-4f00-b225-601d215fef07)
+
+![image](https://github.com/vishwaraja21/html-ABC-college/assets/102411421/44ff77d6-e989-4dd9-a800-828ed73617a8)
+
+![image](https://github.com/vishwaraja21/html-ABC-college/assets/102411421/2409e214-9256-4f47-92c8-7bd306e8f9b2)
+
+![image](https://github.com/vishwaraja21/html-ABC-college/assets/102411421/2fddd1ed-dc48-409d-892c-3f9c1390732d)
 
 
 
-## Output :
-
-![out-ex02-1](https://github.com/KGSatheeshKumar/html-city-tourism/assets/128453421/7a749b09-66c0-4b0a-b15e-dcdf4dfe6426)
-![out-ex02-2](https://github.com/KGSatheeshKumar/html-city-tourism/assets/128453421/482259e9-37a9-4b77-9d1a-2336f8ef04b3)
-![out-ex02-3](https://github.com/KGSatheeshKumar/html-city-tourism/assets/128453421/8b35a67d-63a2-4d3d-ba2a-2c99957332ec)
-![out-ex02-4](https://github.com/KGSatheeshKumar/html-city-tourism/assets/128453421/95c9dddc-34e2-4c15-94ce-75c2ce0d6e55)
-
-## Result :
-
-Thus,Creating a website for college was executed successfully.

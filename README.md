@@ -174,11 +174,12 @@
 </html>
 ```
 ##Output 
-![image](https://github.com/vishwaraja21/html-ABC-college/assets/102411421/99deed6b-5709-4f00-b225-601d215fef07)
+![image](https://github.com/vishwaraja21/html-ABC-college/assets/102411421/78e349b5-c6bc-4c88-9101-0d0a11286787)
 
-![image](https://github.com/vishwaraja21/html-ABC-college/assets/102411421/44ff77d6-e989-4dd9-a800-828ed73617a8)
+![image](https://github.com/vishwaraja21/html-ABC-college/assets/102411421/5b835f16-5bec-4ed5-8dd3-265c7b2c271e)
 
-![image](https://github.com/vishwaraja21/html-ABC-college/assets/102411421/2409e214-9256-4f47-92c8-7bd306e8f9b2)
+
+![image](https://github.com/vishwaraja21/html-ABC-college/assets/102411421/65dc477e-6aec-45fc-ae7a-d6326f0fca8a)
 
 ![image](https://github.com/vishwaraja21/html-ABC-college/assets/102411421/2fddd1ed-dc48-409d-892c-3f9c1390732d)
 
